@@ -2,10 +2,10 @@ body {
     background: rgb(182, 163, 163);
   }
 
-  .container{
-      padding-top: 50px;
-      padding-bottom: 50px;
-  }
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 .button{
     display: block;
@@ -41,10 +41,10 @@ body {
     width: 150px;
     height: 50px;
     background-color: rgb(179, 86, 86);
+    margin-top: 20px;
 }
 
 .btn{
-    display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;

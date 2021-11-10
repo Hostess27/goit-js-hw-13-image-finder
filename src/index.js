@@ -9,6 +9,7 @@ const loadMoreBtn = new LoadMoreBtn({
   selector: '[data-action="load-more"]',
   hidden: true,
 });
+console.log(loadMoreBtn)
 
 const refs = {
   buttonRef: document.querySelector('.search'),
