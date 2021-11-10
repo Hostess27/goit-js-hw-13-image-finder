@@ -1,6 +1,6 @@
 const API_KEY = '24254313-57190dd7b315bf7c0f0ba9004';
 
-export default class fetchPhoto {
+export default class FetchPhoto {
   constructor() {
     this.searchQuery = "";
     this.page = 1;

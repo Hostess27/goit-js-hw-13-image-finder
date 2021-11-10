@@ -17,14 +17,32 @@
   <body>
     <div class="container">
       <form class="search-form" id="search-form">
-        <input type="text" name="query" autocomplete="off" placeholder="Search images..." />
-        <button type="submit" class="search">Погнали!</button>
+        <input
+          class="input"
+          type="text"
+          name="query"
+          autocomplete="off"
+          placeholder="Пиши сюда..."
+        />
       </form>
+      <button type="submit" class="search">Погнали!</button>
 
       <ul class="gallery"></ul>
+      
+      <div class="container-button">
+        <button type="button" class="btn btn-primary button" data-action="load-more">
+          
+          <span
+          class="spinner-border spinner spinner-border-sm is-hidden"
+          role="status"
+          aria-hidden="true"
+          >
+        </span>
+        <span class="label">Хочу еще!...</span>
+      </button>
     </div>
-
-    <button type="submit" class="more-photo">Хочу еще!</button>
+  </div>
     <script src="./index.js"></script>
   </body>
-</html>
+  </html>
+  

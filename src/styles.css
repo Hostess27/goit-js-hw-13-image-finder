@@ -1,0 +1,59 @@
+body {
+    background: rgb(182, 163, 163);
+  }
+
+  .container{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+.button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.is-hidden{
+    display: none;
+}
+
+.search-form{
+    padding-bottom: 20px;
+}
+
+.input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+
+.search{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(179, 86, 86);
+}
+
+.btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(179, 86, 86); 
+}
+
+
+ 
+  
+  
