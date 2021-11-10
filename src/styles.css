@@ -53,6 +53,24 @@ body {
     background-color: rgb(179, 86, 86); 
 }
 
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.stats{
+    display: flex;
+    
+}
+.list-item{
+    
+}
+
+
 
  
   
